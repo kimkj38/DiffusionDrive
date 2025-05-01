@@ -50,6 +50,7 @@ def transfuser_loss(
         trajectory_loss_dict = predictions["trajectory_loss_dict"]
         loss_dict.update(trajectory_loss_dict)
     # import ipdb; ipdb.set_trace()
+
     return loss_dict
 
 
